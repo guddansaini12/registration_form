@@ -1,0 +1,50 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;  
+    background: url(Images/background1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 50px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(80, 78, 78);
+}
+
+hr {
+    border: 1px solid #2c2b2b;
+    margin-bottom: 25px;
+}
+
+input[type=text], input[type=password], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #fdfbfb;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: gainsboro;
+    outline: none;
+}
+
+div {
+    padding: 10px 0;
+}
+
+.submitbtn {
+    background-color: lightseagreen;
+    padding: 12px 25px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.submitbtn:hover {
+    opacity: 1;
+}
